@@ -1,7 +1,7 @@
 4. Servicio 02 – Servidor Web httpd / Apache 
 # Instalar Apache y sacar copia de seguridad previa:
-sudo dnf install -y httpd
-sudo cp -p /etc/httpd/conf/httpd.conf /root/backups_interciclo/httpd.conf.bak_$(date +%F_%H%M)
+- sudo dnf install -y httpd
+- sudo cp -p /etc/httpd/conf/httpd.conf /root/backups_interciclo/httpd.conf.bak_$(date +%F_%H%M)
 
 # Abrir firewall y arrancar Apache (sin tocar el index.html por defecto):
 - sudo firewall-cmd --add-service=http --permanent
