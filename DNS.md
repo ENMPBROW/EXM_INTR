@@ -7,7 +7,9 @@
 ### Respaldar configuración original:
 
 * `sudo cp -p /etc/named.conf /root/backups_interciclo/named.conf.bak_$(date +%F_%H%M)`
-* Verificar : `sudo ls -lh /root/backups_interciclo/`
+* Verificar : sudo ls -lh /root/backups_interciclo/
+<img width="807" height="99" alt="image" src="https://github.com/user-attachments/assets/4c21a192-eb46-4074-958e-06b856cddfb7" />
+
 
 ### Editar `/etc/named.conf`:
 
@@ -64,3 +66,6 @@ admin   IN  A   192.168.18.205
 * `dig @192.168.18.205 web.nievecela.lab +short`
 
   * **Verificación:** `named-checkzone` devuelve `OK` y `dig` responde `192.168.18.205`.
+<img width="813" height="280" alt="image" src="https://github.com/user-attachments/assets/e7d2d845-4db8-4848-a284-3df76c0fc252" />
+
+
