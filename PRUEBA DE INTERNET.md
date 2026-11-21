@@ -6,7 +6,7 @@ whoami
 hostname
 ip a
 ```
-* **Verificación:** Muestra `esteban`, `srv-nievecela` y `192.168.18.200/24` en la interfaz `enp0s3`.
+* **Verificación:** Muestra `esteban`, `srv-nievecela` y `192.168.18.205/24` en la interfaz `enp0s3`.
 
 **2. Probar salida a Internet con 10 paquetes:**
 ```bash
@@ -24,3 +24,7 @@ sudo mkdir -p /root/backups_interciclo
 sudo ls -ld /root/backups_interciclo
 ```
 * **Verificación:** Muestra el directorio `/root/backups_interciclo` creado con permisos `drwxr-xr-x`.
+
+
+<img width="829" height="751" alt="image" src="https://github.com/user-attachments/assets/b85242d2-f7f2-449b-82e5-ab91813adfa8" />
+
