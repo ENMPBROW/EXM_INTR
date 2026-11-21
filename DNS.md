@@ -47,11 +47,11 @@ $TTL 86400
 
 @       IN  NS  ns1.nievecela.lab.
 
-ns1     IN  A   192.168.18.200
-srv     IN  A   192.168.18.200
-web     IN  A   192.168.18.200
-ssh     IN  A   192.168.18.200
-admin   IN  A   192.168.18.200
+ns1     IN  A   192.168.18.205
+srv     IN  A   192.168.18.205
+web     IN  A   192.168.18.205
+ssh     IN  A   192.168.18.205
+admin   IN  A   192.168.18.205
 ```
 
 ### Permisos, firewall y arranque del servicio:
@@ -61,6 +61,6 @@ admin   IN  A   192.168.18.200
 * `sudo firewall-cmd --add-service=dns --permanent`
 * `sudo firewall-cmd --reload`
 * `sudo systemctl enable --now named`
-* `dig @192.168.18.200 web.nievecela.lab +short`
+* `dig @192.168.18.205 web.nievecela.lab +short`
 
-  * **Verificación:** `named-checkzone` devuelve `OK` y `dig` responde `192.168.18.200`.
+  * **Verificación:** `named-checkzone` devuelve `OK` y `dig` responde `192.168.18.205`.
