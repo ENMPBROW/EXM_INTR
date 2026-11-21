@@ -21,7 +21,7 @@
 - getenforce
 # En tu Windows (CMD como Administrador):
 DOS
-- netsh interface ip set dns name="Wi-Fi 2" static 192.168.18.200
+- netsh interface ip set dns name="Wi-Fi 2" static 192.168.18.205
 - ipconfig /flushdns
 - nslookup web.nievecela.lab
 - nslookup ssh.nievecela.lab
