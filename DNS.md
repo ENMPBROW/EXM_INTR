@@ -14,7 +14,7 @@
 * `sudo nano /etc/named.conf`
 * Dentro de `options { ... }`, deja estas dos líneas con tu IP:
 ```text
-listen-on port 53 { 127.0.0.1; 192.168.18.200; };
+listen-on port 53 { 127.0.0.1; 192.168.18.205; };
 allow-query     { localhost; 192.168.18.0/24; };
 ````
 * Al final del archivo agrega tu zona directa:
