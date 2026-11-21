@@ -13,8 +13,8 @@ ip a
 ping -c 10 8.8.8.8
 ```
 * **Verificación:** Termina con `10 packets transmitted, 10 received, 0% packet loss`.
-
----
+# Resultado a Obtener
+<img width="829" height="751" alt="image" src="https://github.com/user-attachments/assets/b85242d2-f7f2-449b-82e5-ab91813adfa8" />
 
 # Carpeta Central de Respaldos
 
@@ -33,7 +33,7 @@ sudo ls -ld /root/backups_interciclo
 
 
 
-<img width="829" height="751" alt="image" src="https://github.com/user-attachments/assets/b85242d2-f7f2-449b-82e5-ab91813adfa8" />
+
 
 
 
