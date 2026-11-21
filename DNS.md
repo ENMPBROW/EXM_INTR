@@ -1,13 +1,13 @@
 
 ## Servicio 01 – Servidor DNS (named / BIND)
 
-* Instalar BIND y sus herramientas de consulta:
+ -  Instalar BIND y sus herramientas de consulta:
 * `sudo dnf install -y bind bind-utils`
 
 ### Respaldar configuración original:
 
 * `sudo cp -p /etc/named.conf /root/backups_interciclo/named.conf.bak_$(date +%F_%H%M)`
-* `sudo ls -lh /root/backups_interciclo/`
+* Verificar : `sudo ls -lh /root/backups_interciclo/`
 
 ### Editar `/etc/named.conf`:
 
@@ -33,7 +33,8 @@ zone "nievecela.lab" IN {
 
 * `sudo cp -p /var/named/named.localhost /var/named/nievecela.lab.zone`
 * `sudo nano /var/named/nievecela.lab.zone`
-* Reemplaza todo el contenido por:
+
+  - Reemplaza todo el contenido por:
 
 ```text
 $TTL 86400
