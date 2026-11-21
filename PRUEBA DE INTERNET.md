@@ -1,4 +1,4 @@
-## Punto 2.1 – Identificación del Nodo y Conectividad
+# Identificación del Nodo y Conectividad
 
 **1. Verificar identidad, hostname e IP:**
 ```bash
