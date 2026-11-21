@@ -16,7 +16,7 @@ ping -c 10 8.8.8.8
 
 ---
 
-## Punto 2.2 – Carpeta Central de Respaldos
+# Carpeta Central de Respaldos
 
 **1. Crear el directorio dedicado de respaldos y verificarlo:**
 ```bash
